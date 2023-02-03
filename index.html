@@ -1,18 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="tela de login, moderna, minimalista, simples" />
+    <meta name="keywords" content="Tela de login, Moderna, Minimalista, Simples" />
     <meta name="description" content="Faça login em nosso site e consulte seu orçamento." />
     <meta name="author" content="Caio Lemos Peixoto Martins" />
-    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="Styles/style.css" />
-    <link rel="stylesheet" href="Styles/media-query.css" />
+    <link rel="stylesheet" href="Styles/media-queries.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200" />
     <title>Login | Construtora</title>
 </head>
+
 <body>
-    
+    <main id="container">
+        <div id="animation">
+        </div>
+
+        <div id="box-form">
+            <h1>Login</h1>
+            <form action="login.php" method="post" autocomplete="on">
+                <div class="field">
+                    <span class="material-symbols-outlined">mail</span>
+                    <input class="data" type="email" name="email" id="iemail" placeholder="Email" autocomplete="email" required>
+                    <label for="iemail">Email</label>
+                </div>
+                <div class="field">
+                    <span class="material-symbols-outlined">lock</span>
+                    <input class="data" type="password" name="password" id="ipassword" placeholder="Senha" autocomplete="current-password" minlength="8" required>
+                    <label for="ipassword">Senha</label>
+                </div>
+                <div id="recuperation">
+                    <input type="checkbox" name="remember" id="iremember" checked>
+                    <label id="iremember-label" for="iremember">Lembre-me</label>
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+                <div id="button">
+                    <input type="submit" value="Entrar">
+                </div>
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <div class="big">
+            <h3>Animação</h3>
+            <a href="https://storyset.com/transport">Transport illustrations by Storyset</a>
+        </div>
+        <div>
+            <p>&copy; 2022 - 2023 Construtora.com</p>
+        </div>
+        <div class="big">
+            <h3>Favicon</h3>
+            <a href="https://www.flaticon.com/free-icons/apartment" title="apartment icons">Apartment icons created by Freepik - Flaticon</a>
+        </div>
+    </footer>
+
+    <script>
+        iemail.select()
+    </script>
 </body>
+
 </html>
