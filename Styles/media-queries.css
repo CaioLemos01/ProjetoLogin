@@ -9,13 +9,13 @@ Desktop: de 992px até 1200px
 Grandes telas: acima de 1200px
 */
 
-@media screen and (min-width: 548px) and (max-width: 768px) {
+@media screen and (min-width: 547px) and (max-width: 590px) {
     .material-symbols-outlined {
-        transform: translate(50%, 86%);
+        transform: translate(50%, 70%);
     }
 }
 
-@media screen and (min-width: 768.1px) {
+@media screen and (min-width: 590.1px) {
     #container {
         width: 580px;
     }
