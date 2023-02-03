@@ -25,7 +25,7 @@
 }
 
 html, body {
-    width: 96vw;
+    width: 100vw;
     height: 98vh;
     background-color: var(--color-3);
 }
@@ -38,8 +38,7 @@ html, body {
     background-color: var(--color-1);
     background-position: center center;
     border-radius: 30px;
-    margin: auto;
-    margin-top: 10px;
+    margin: 10px auto;
 }
 
 #box-form {
@@ -74,7 +73,7 @@ form {
 
 .material-symbols-outlined {
     position: absolute;
-    transform: translate(45%, 70%);
+    transform: translate(45%, 84%);
     color: var(--color-5);
 }
 
@@ -112,6 +111,7 @@ form {
 }
 
 #recuperation a {
+    margin-top: 4px;
     text-decoration: none;
     color: var(--color-1);
     font-size: .8em;
@@ -172,41 +172,33 @@ footer {
     color: var(--color-5-2);
     display: flex;
     width: 100vw;
-    height: 8%;
-    flex-direction: row;
+    height: 14%;
+    flex-direction: column;
     text-align: center;
     bottom: 0;
     position: fixed;
     background-color: var(--color-2-1);
 }
 
-footer div {
-    width: 14%;
-    margin: auto;
-    padding: 6px;
-}
-
-.big {
-    width: 43%;
-}
-
-footer div > p {
-    font-size: .5em;
+footer > p {
+    font-size: .6em;
     width: 100%;
+    padding-top: 6px;
 }
 
 footer h3 {
-    font-weight: 500;
-    font-size: .8em;
+    font-weight: 400;
+    font-size: .7em;
+    padding-top: 4px;
 }
 
 footer a {
-    width: 80%;
+    width: 100%;
     text-decoration: none;
     color: var(--color-3-1);
-    text-align: justify;
+    text-align: center;
     font-size: .5em;
-    padding: 14px;
+    padding-bottom: 6px;
 }
 
 footer a:hover {
