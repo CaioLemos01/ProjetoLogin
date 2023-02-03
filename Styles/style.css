@@ -93,7 +93,7 @@ form {
 .data:focus-within {
     background-color: var(--color-5-1);
     color: var(--color-1);
-    transition: .5s;
+    transition: .2s;
 }
 
 ::-webkit-input-placeholder {
